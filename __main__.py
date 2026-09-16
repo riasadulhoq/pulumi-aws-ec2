@@ -94,7 +94,7 @@ public_security_group = aws.ec2.SecurityGroup("poridhi-public-sg",
                                                   "from_port": 22,
                                                   "protocol": "tcp",
                                                   "to_port": 22,
-                                                  "cidr_blocks": ["103.191.50.14/32"],
+                                                  "cidr_blocks": ["103.191.50.64/32"],
                                               }],
                                               egress=[{
                                                   "from_port": 0,
